@@ -1,0 +1,17 @@
+# File tạm của Microsoft Office
+~$*
+*.tmp
+~WRL*.tmp
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Dữ liệu nhạy cảm — KHÔNG commit
+*.key
+*secret*
+*password*
+bao-gia/
+hop-dong-ky/
+du-lieu-nong-ho/
