@@ -1,6 +1,7 @@
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
-$base = Join-Path $env:USERPROFILE 'Downloads\CaPhe-DienBien-Word'
+# Dung $PSScriptRoot: script nam ngay trong thu muc bo tai lieu, khong hong khi di chuyen repo.
+$base = $PSScriptRoot
 
 # Dung tieng Viet tu ma Unicode de tranh loi encoding khi PS 5.1 doc .ps1
 $probe    = 'M' + [char]0x01B0 + [char]0x1EDD + 'ng'      # "Muong" co dau

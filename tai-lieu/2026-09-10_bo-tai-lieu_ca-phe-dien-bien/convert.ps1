@@ -2,7 +2,8 @@ $ErrorActionPreference = 'Stop'
 
 # Khong hardcode duong dan co dau tieng Viet:
 # PowerShell 5.1 doc .ps1 khong BOM theo ANSI -> ky tu tieng Viet bi hong.
-$base = Join-Path $env:USERPROFILE 'Downloads\CaPhe-DienBien-Word'
+# Dung $PSScriptRoot: script nam ngay trong thu muc bo tai lieu, khong hong khi di chuyen repo.
+$base = $PSScriptRoot
 $src  = Join-Path $base 'src'
 
 Write-Output ("Base: " + $base)

@@ -15,7 +15,12 @@ Ví dụ: `2026-09-08_spec-sheet_robusta-g1-s18.pdf`,
 ## Danh mục tài liệu
 
 Toàn bộ tài liệu nghiên cứu cá nhân đã được đưa vào repo ngày **10/09/2026** (trước đó nằm rải rác
-trong `~/Downloads`). Bản gốc vẫn giữ nguyên ở `~/Downloads`, đây là bản sao đã đổi tên theo quy ước.
+trong `~/Downloads`). Đây là bản sao đã đổi tên theo quy ước.
+
+> **Cập nhật 10/09/2026 — dọn kho.** `~/Downloads` đã được dọn sạch dữ liệu dự án. Bản gốc còn lại
+> ở hai nơi: `~/OneDrive/Documents/caffe/` (bản người dùng tự chuyển tay, giữ làm dự phòng) và
+> `C:\work\_kho\trung-lap-tu-Downloads\` (các file đã đối chiếu trùng hash với repo). Repo này là
+> **bản chuẩn** — khi có khác biệt, lấy theo repo.
 
 | File trong repo | Nội dung | Tên gốc |
 |---|---|---|
@@ -27,6 +32,8 @@ trong `~/Downloads`). Bản gốc vẫn giữ nguyên ở `~/Downloads`, đây l
 | `2026-09-09_ke-hoach_lo-trinh-xuat-khau.docx` | Lộ trình xuất khẩu cà phê | `lộ trình xuất khẩu cà phê.docx` |
 | `2026-09-04_b2b_noi-dung-b2b.docx` | Nội dung B2B | `B2B.docx` |
 | `2026-09-04_jd_export-marketing-executive.pdf` | Mô tả công việc Export Marketing Executive | `JD-Export-Marketing-Executive.pdf` |
+| `2026-09-10_tong-hop_ca-phe-dien-bien.docx` | Bản tổng hợp cà phê Điện Biên (bổ sung 10/09/2026) | `CÀ PHÊ ĐIỆN BIÊN.docx` |
+| `2026-09-10_phap-ly_luat-ca-phe-chau-au-ESCC.pdf` | Hợp đồng mẫu ESCC / luật cà phê châu Âu (bổ sung 10/09/2026) | `ESCC luật cà phê chuâ âu.pdf` |
 
 ### Bộ tài liệu cà phê Điện Biên (10/09/2026)
 
