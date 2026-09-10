@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Thị phần cà phê Điện Biên - tính lại</title>
+<style>
+body{font-family:'Times New Roman',serif;font-size:12pt;line-height:1.5;}
+h1{font-size:17pt;color:#1F4E79;}
+h2{font-size:14pt;color:#2E74B5;}
+h3{font-size:12.5pt;color:#2E74B5;}
+table{border-collapse:collapse;width:100%;}
+th,td{border:1px solid #808080;padding:5pt;font-size:11pt;vertical-align:top;}
+th{background:#DEEAF6;}
+.q{background:#FFF2CC;border-left:4pt solid #BF8F00;padding:8pt;}
+.warn{background:#FBE4D5;padding:8pt;border-left:4pt solid #C55A11;}
+.key{background:#E2EFDA;padding:8pt;border-left:4pt solid #548235;}
+.src{font-size:10pt;color:#404040;}
+pre{background:#F2F2F2;padding:8pt;font-family:Consolas,monospace;font-size:10.5pt;border:1px solid #BFBFBF;}
+</style></head><body>
+
+<h1>Thị phần cà phê Điện Biên &mdash; tính lại từ đầu</h1>
+<p class="src"><i>Hồ sơ 06/07 &middot; Ngày lập: 10/09/2026</i></p>
+
+<div class="q"><b>Câu hỏi:</b> Hãy ước tính lại thật kỹ và đưa ra con số chính xác nhất về thị phần cà phê Điện Biên.</div>
+
+<h2>Ba lỗi trong bảng ước tính cũ</h2>
+<p><b>Lỗi 1 &mdash; Trộn số liệu hai năm khi tính diện tích Arabica cả nước.</b> Đã lấy diện tích Sơn La <b>2025</b> (26.120 ha) chia cho tỷ lệ 47,9% vốn là con số công bố cho <b>cuối 2024</b> (khi Sơn La mới có 23.312 ha). Đúng ra: 23.312 &divide; 0,479 &asymp; <b>48.700 ha</b> (mốc 2024). Kết quả ~54.000 ha tình cờ vẫn nằm trong khoảng đúng, nhưng cách suy ra thì sai.</p>
+<p><b>Lỗi 2 &mdash; Không phân biệt diện tích <i>trồng</i> và diện tích <i>cho thu hoạch</i>.</b> Đây là lỗi nghiêm trọng nhất. Dùng diện tích trồng để tính thị phần <b>sản lượng</b> là sai về nguyên tắc &mdash; cà phê mất 3&ndash;4 năm mới cho quả, và Điện Biên đang trồng mới ồ ạt.</p>
+<p><b>Lỗi 3 &mdash; Dùng năng suất quảng bá thay vì năng suất thực.</b> Đã dùng &ldquo;15 tấn quả tươi/ha&rdquo; từ báo chí. Nhưng số liệu 01/2026 của Báo Công Thương cho xã Mường Ảng &mdash; vùng tốt nhất tỉnh &mdash; là <b>1.813 ha cho thu hoạch, 17.000 tấn quả tươi = 9,4 tấn/ha</b>. Thấp hơn 37% so với con số đã dùng.</p>
+
+<h2>1. Xây lại từ neo cứng nhất</h2>
+<p>Neo tốt nhất không phải diện tích, mà là <b>cà phê trấu</b> &mdash; sản phẩm được cân thật khi mua bán.</p>
+<h3>Xã Mường Ảng, niên vụ 2025</h3>
+<table>
+<tr><th></th><th>Nguồn A (Báo Điện Biên Phủ)</th><th>Nguồn B (Báo Công Thương)</th></tr>
+<tr><td>Quả tươi</td><td>16.500 tấn</td><td>17.000 tấn</td></tr>
+<tr><td>Cà phê trấu</td><td>3.300 tấn</td><td>&gt;3.800 tấn</td></tr>
+<tr><td>Tỷ lệ trấu/tươi</td><td><b>20,0%</b></td><td>22,4%</td></tr>
+</table>
+<p>Nguồn A cho tỷ lệ <b>20,0%</b> &mdash; đúng bằng hệ số chuẩn của cà phê thóc khô. Nguồn B cho 22,4%, hơi cao. Lấy nguồn A làm chuẩn.</p>
+<p><b>Quy đổi trấu &rarr; nhân:</b> xát vỏ trấu, hiệu suất 78&ndash;82%, lấy <b>80%</b>.</p>
+<pre>Xã Mường Ảng 2025:
+  16.500 tấn tươi x 20%  = 3.300 tấn trấu
+  3.300 tấn trấu x 80%   = 2.640 tấn nhân
+
+  -> He so tuoi->nhan = 6,25 : 1  (nhan = 16,0% qua tuoi - dung chuan nganh)
+  -> Nang suat thuc   = 2.640 / 1.813 ha = 1,46 tan nhan/ha</pre>
+<p>Con số 1,46 tấn nhân/ha này <b>kiểm chứng chéo được</b>: nó nằm đúng trong dải arabica hộ nhỏ lẻ, và thấp hơn Sơn La (37.724 tấn nhân / 19.951 ha = <b>1,89 tấn/ha</b>) khoảng 23% &mdash; hợp lý với chênh lệch độ cao và mức thâm canh.</p>
+
+<h3>Suy ra toàn tỉnh</h3>
+<table>
+<tr><th>Bước</th><th>Giá trị</th><th>Độ tin cậy</th></tr>
+<tr><td>Diện tích trồng toàn tỉnh (01/2026)</td><td><b>5.000 ha</b></td><td>Cao &mdash; hai nguồn độc lập</td></tr>
+<tr><td>Diện tích trồng (07/2026, suy ra)</td><td>~8.000 ha</td><td>Thấp &mdash; suy ngược từ &ldquo;16.500 sau khi trồng mới 8.500&rdquo;</td></tr>
+<tr><td><b>Diện tích cho thu hoạch</b></td><td><b>~2.800 &ndash; 3.500 ha</b></td><td><b>Trung bình &mdash; ước tính, không nguồn nào công bố</b></td></tr>
+<tr><td>Năng suất</td><td>1,46 &ndash; 1,68 tấn nhân/ha</td><td>Cao</td></tr>
+<tr><td><b>&rarr; Sản lượng nhân/năm</b></td><td><b>~4.000 &ndash; 5.900 tấn</b></td><td>Trung bình</td></tr>
+</table>
+<p><b>Điểm giữa: ~5.000 tấn nhân/năm</b> (khoảng 5 triệu kg).</p>
+
+<h2>2. Bảng thị phần làm lại</h2>
+<table>
+<tr><th>Chỉ tiêu</th><th>Tử số (Điện Biên)</th><th>Mẫu số (cả nước)</th><th>Thị phần</th><th>Độ tin cậy</th></tr>
+<tr><td><b>Diện tích trồng</b></td><td>5.000 ha</td><td>600.000 &ndash; 720.000 ha</td><td><b>0,7 &ndash; 0,8%</b></td><td>Trung bình</td></tr>
+<tr><td><b>Sản lượng nhân</b></td><td>4.000 &ndash; 5.900 tấn</td><td>~1,77 triệu tấn (29,5 triệu bao)</td><td><b>0,23 &ndash; 0,33%</b></td><td>Trung bình</td></tr>
+<tr><td><b>Diện tích Arabica</b></td><td>5.000 ha</td><td>~54.500 ha</td><td><b>~9%</b></td><td>Trung bình</td></tr>
+<tr><td><b>Sản lượng Arabica</b></td><td>4.000 &ndash; 5.900 tấn</td><td>~70.000 &ndash; 85.000 tấn</td><td><b>~5 &ndash; 8%</b></td><td>Thấp</td></tr>
+</table>
+<div class="warn"><b>Nếu tính theo diện tích trồng mới nhất (8.000 ha, giữa 2026):</b> thị phần diện tích Arabica lên <b>~14%</b> &mdash; nhưng thị phần <b>sản lượng không đổi</b>, vì diện tích trồng mới chưa cho quả đến 2029&ndash;2030.</div>
+
+<h3>Kiểm chứng chéo mẫu số Arabica (cộng dồn từ dưới lên)</h3>
+<table>
+<tr><th>Tỉnh</th><th>Diện tích Arabica</th></tr>
+<tr><td>Sơn La</td><td>26.120 ha</td></tr>
+<tr><td>Lâm Đồng</td><td>~17.500 ha</td></tr>
+<tr><td>Điện Biên</td><td>5.000 ha</td></tr>
+<tr><td>Quảng Trị (Khe Sanh)</td><td>4.600 ha</td></tr>
+<tr><td>Nghệ An, Huế, Kon Tum&hellip;</td><td>~1.500 ha</td></tr>
+<tr><td><b>Tổng</b></td><td><b>~54.700 ha</b></td></tr>
+</table>
+<p>Khớp với con số suy từ tỷ lệ 47,9% của Sơn La (~54.500 ha). Đây là mẫu số đáng tin nhất trong cả bảng.</p>
+
+<h2>3. Con số cuối cùng</h2>
+<div class="key"><b>Điện Biên chiếm khoảng 0,3% sản lượng cà phê Việt Nam, khoảng 0,7% diện tích, và khoảng 9% diện tích Arabica cả nước (~6% sản lượng Arabica).</b></div>
+
+<p>Nhưng phải nói rõ: <b>&ldquo;con số chính xác nhất&rdquo; không tồn tại</b>, và không phải vì tìm chưa kỹ.</p>
+
+<h3>Ba lý do khiến độ chính xác bị chặn cứng</h3>
+<p><b>Một &mdash; Việt Nam không biết diện tích cà phê của chính mình.</b> Bài báo của Thị trường Tài chính Tiền tệ (24/08/2024) ghi lại đúng vấn đề này: số liệu thống kê nói 700.000 ha, người trong ngành nói ~600.000 ha, Chủ tịch VICOFA Nguyễn Nam Hải nói &ldquo;không thể dưới 600.000 ha&rdquo;. <b>Chênh lệch 100.000 ha &mdash; tức 15% mẫu số.</b> Mọi tỷ lệ phần trăm tính trên nền này đều thừa hưởng sai số đó.</p>
+<p><b>Hai &mdash; Điện Biên chưa từng công bố sản lượng cà phê nhân cấp tỉnh.</b> Đã tìm cả báo tỉnh, Cục Thống kê tỉnh, Sở NN&amp;MT: <b>không có</b>. Số liệu chỉ tồn tại ở cấp xã (Mường Ảng), và ở dạng quả tươi hoặc trấu. Con số 4.000&ndash;5.900 tấn là <b>suy ra</b>, không phải trích dẫn &mdash; và khâu yếu nhất là diện tích cho thu hoạch toàn tỉnh.</p>
+<p><b>Ba &mdash; Mốc thời gian đang trôi rất nhanh.</b> Trong 6 tháng đầu 2026 tỉnh có thể đã trồng thêm ~3.000 ha. Bất kỳ con số diện tích nào cũng cần gắn ngày tháng, nếu không sẽ vô nghĩa.</p>
+
+<div class="warn"><b>Và một điều bảng số không nói ra:</b> thị phần <b>giá trị</b> của Điện Biên gần như chắc chắn <b>thấp hơn</b> thị phần sản lượng 0,3%. Vì phần lớn sản lượng bán ở dạng quả tươi/thóc cho đại lý rồi đấu trộn &mdash; toàn bộ biên lợi nhuận chế biến, rang xay và thương hiệu rơi vào tay doanh nghiệp ngoài tỉnh. Thêm nữa, lợi thế &ldquo;arabica đắt hơn robusta&rdquo; hiện cũng không còn: niên vụ vừa rồi giá robusta xuất khẩu <b>vượt</b> arabica, chuyện chưa từng có.</div>
+
+<h2>Nguồn</h2>
+<p class="src">
+Báo Công Thương &ndash; Mường Ảng làm giàu bền vững từ cây cà phê (04/01/2026): https://congthuong.vn/muong-ang-lam-giau-ben-vung-tu-cay-ca-phe-437644.html<br>
+Báo Điện Biên Phủ &ndash; Cà phê Điện Biên nâng cao chất lượng (17/01/2026): https://baodienbienphu.vn/tin-bai/kinh-te/ca-phe-dien-bien-nang-cao-chat-luong<br>
+Dân Việt &ndash; Điện Biên tăng tốc trồng Arabica (20/07/2026): https://danviet.vn/dien-bien-tang-toc-trong-ca-phe-arabica-xay-dung-thuong-hieu-ca-phe-dac-san-de-xuat-khau-d1444680.html<br>
+Báo Sơn La &ndash; Arabica cây trồng chủ lực: https://baosonla.vn/kinh-te/ca-phe-arabica-cay-trong-chu-luc-cua-son-la-3NpK3yjHR.html<br>
+Thị trường Tài chính Tiền tệ &ndash; Không có thông tin chính xác về diện tích cà phê cả nước: https://thitruongtaichinhtiente.vn/khong-co-thong-tin-chinh-xac-ve-dien-tich-ca-phe-tren-ca-nuoc-62101.html<br>
+Prime Coffee &ndash; Cây cà phê chè Việt Nam và ba vùng canh tác trọng điểm: https://primecoffea.com/cay-ca-phe-che-viet-nam-va-ba-vung-canh-tac-trong-diem.html
+</p>
+
+</body></html>

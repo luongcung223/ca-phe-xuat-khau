@@ -57,6 +57,13 @@ xuất khẩu **cà phê nhân xanh (green coffee) Robusta Việt Nam**, trọng
 ### Tra cứu
 - [`12-thuat-ngu.md`](docs/12-thuat-ngu.md) — từ điển thuật ngữ và viết tắt.
 - [`nguon/nguon-tham-khao.md`](nguon/nguon-tham-khao.md) — toàn bộ nguồn đã dùng, phân theo chủ đề.
+- [`nguon/du-lieu/`](nguon/du-lieu/) — dữ liệu thô. Hiện có bộ **USDA PSD** cà phê Việt Nam
+  (trích xuất 10/09/2026): sản lượng, xuất khẩu, tồn kho theo niên vụ từ 1960.
+  ⚠️ Đơn vị gốc là *nghìn bao 60 kg*, không phải tấn — đọc README trong thư mục trước khi trích số.
+
+### Tài liệu gốc
+- [`tai-lieu/`](tai-lieu/) — docx/pdf nghiên cứu, gồm bộ **8 tài liệu Word cà phê Điện Biên /
+  Mường Ảng** (10/09/2026) kèm HTML nguồn và script chuyển đổi.
 
 ### Kế hoạch hành động
 - [`ke-hoach/checklist-xuat-khau-duc.md`](ke-hoach/checklist-xuat-khau-duc.md)
@@ -95,3 +102,4 @@ xuất khẩu **cà phê nhân xanh (green coffee) Robusta Việt Nam**, trọng
 | Ngày | Nội dung |
 |---|---|
 | 08/09/2026 | Khởi tạo workspace. Nhập toàn bộ nghiên cứu từ 4 phiên làm việc 07–08/09/2026: thị trường VN & EU, TCVN 4193, SCA/Fine Robusta, độ ẩm & bảo quản, lỗi hạt, hái–phơi chống OTA, thị trường Đức, EUDR, 4C, vùng nguyên liệu. |
+| 10/09/2026 | Đưa tài liệu gốc vào repo: 8 file docx/pdf nghiên cứu trước đây nằm ở `~/Downloads`, bộ 8 tài liệu Word cà phê Điện Biên / Mường Ảng kèm HTML nguồn, và dữ liệu thô USDA PSD (1.273 dòng) trong `nguon/du-lieu/`. Số liệu trong `docs/` chưa đối chiếu lại với bộ USDA này. |
