@@ -34,6 +34,9 @@ trong `~/Downloads`). Đây là bản sao đã đổi tên theo quy ước.
 | `2026-09-04_jd_export-marketing-executive.pdf` | Mô tả công việc Export Marketing Executive | `JD-Export-Marketing-Executive.pdf` |
 | `2026-09-10_tong-hop_ca-phe-dien-bien.docx` | Bản tổng hợp cà phê Điện Biên (bổ sung 10/09/2026) | `CÀ PHÊ ĐIỆN BIÊN.docx` |
 | `2026-09-10_phap-ly_luat-ca-phe-chau-au-ESCC.pdf` | Hợp đồng mẫu ESCC / luật cà phê châu Âu (bổ sung 10/09/2026) | `ESCC luật cà phê chuâ âu.pdf` |
+| `2026-09-11_thi-truong_vi-the-viet-nam-tren-thi-truong-ca-phe-the-gioi.docx` | Vị thế Việt Nam trên thị trường cà phê thế giới. Kèm file `.html` nguồn cùng tên để dựng lại | — (soạn trực tiếp 11/09/2026) |
+| `2026-09-11_thi-truong_xu-huong-uong-ca-phe-the-gioi.docx` | Xu hướng uống cà phê trên thế giới | `XU HƯỚNG UỐNG CÀ PHÊ TRÊN THẾ GIỚI.docx` |
+| `2026-09-11_nguon_usda-coffee-annual-brazil-BR2026-0025.pdf` | USDA FAS Coffee Annual — Brazil, báo cáo BR2026-0025. Nguồn gốc để đối chiếu số liệu đối thủ | `Coffee Annual_Brasilia_Brazil_BR2026-0025.pdf` |
 
 ### Bộ tài liệu cà phê Điện Biên (10/09/2026)
 

@@ -3,6 +3,12 @@
 *.tmp
 ~WRL*.tmp
 
+# File nháp dùng một lần trong lúc dựng tài liệu.
+# Bản chuẩn để chuyển HTML sang .docx là
+# tai-lieu/2026-09-10_bo-tai-lieu_ca-phe-dien-bien/convert.ps1 — dùng $PSScriptRoot,
+# có bảo vệ tiến trình Word đang mở của người dùng. Đừng commit bản nháp thay nó.
+_tmp_*
+
 # Windows
 Thumbs.db
 desktop.ini
