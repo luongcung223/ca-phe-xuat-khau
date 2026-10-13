@@ -21,8 +21,10 @@ Ngoài ra độ ẩm không đều làm hạt **rang không đồng màu** → b
 
 | Tiêu chuẩn | Ngưỡng |
 |---|---|
-| **TCVN 4193** (Việt Nam) | ≤ **12,5%** |
-| **ISO 6673** | Phương pháp đối chứng chính thức (sấy 105 °C / 16 h) |
+| **TCVN 4193:2014** (Việt Nam) | ≤ **12,5%** |
+| **ISO 6673:2025** | Phương pháp đối chứng chính thức (sấy 105 °C / 16 h) — ⚠️ **ấn bản 2003 đã bị thu hồi**, đừng ghi "ISO 6673:2003" vào hợp đồng |
+| **ISO 1446:2001 + Amd 1:2011** | Karl Fischer — phương pháp **trọng tài** khi hai bên lệch kết quả |
+| **ISO 24115:2012** | **Hiệu chuẩn máy đo độ ẩm** cho nhân xanh — cơ sở để số đo máy cầm tay có giá trị tranh luận |
 | Hợp đồng EU/Nhật thực tế | thường siết còn **12,0% max**, một số bên mua yêu cầu **11,5%** |
 | Specialty / hàng gửi kho lạnh | 10,5–11,5%, kèm **water activity aw < 0,60** |
 
@@ -94,7 +96,7 @@ Nguyên lý điện dung hoặc điện trở:
 3. **Cân bằng nhiệt độ mẫu** với máy trước khi đo — hạt vừa ra khỏi máy sấy còn nóng cho số sai
 4. Đo **3 lần**, lấy trung bình
 
-### 5.2 ISO 6673 — phương pháp đối chứng (có giá trị pháp lý)
+### 5.2 ISO 6673:2025 — phương pháp đối chứng (có giá trị pháp lý)
 
 1. Cân mẫu nhân xanh **nguyên hạt** (không nghiền), ghi khối lượng `m1`
 2. Sấy tủ **105 °C ± 1 °C trong 16 giờ**
@@ -103,7 +105,7 @@ Nguyên lý điện dung hoặc điện trở:
 
 Đây là cơ sở cho chứng thư của **SGS, Cafecontrol, Vinacontrol, Intertek**.
 
-### 5.3 Lấy mẫu (ISO 4072) — khâu hay bị làm ẩu nhất
+### 5.3 Lấy mẫu (ISO 4072:1982) — khâu hay bị làm ẩu nhất
 
 > **Đo sai vì lấy mẫu sai còn nhiều hơn đo sai vì máy.**
 
@@ -188,7 +190,9 @@ Biện pháp:
 
 ## 10. Checklist trước khi giao hàng
 
-1. Đo bằng máy **đã hiệu chuẩn**, ở **nhiều điểm trong lô**, không chỉ 1 mẫu
+1. Đo bằng máy **đã hiệu chuẩn theo ISO 24115:2012**, ở **nhiều điểm trong lô**, không chỉ 1 mẫu.
+   **Lưu hồ sơ hiệu chuẩn** — máy cầm tay không có hồ sơ thì số đo của bạn không có giá trị khi
+   tranh chấp với chứng thư của giám định viên
 2. Đảm bảo **độ lệch giữa các bao < 0,5%** — đồng nhất quan trọng ngang mức trung bình
 3. Gửi mẫu đi **giám định độc lập** (Cafecontrol/SGS) lấy **chứng thư** trước khi đóng container
 4. Mục tiêu giao **11,5–12,0%**, chừa biên cho hao ẩm ngược trên đường đi

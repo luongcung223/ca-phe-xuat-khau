@@ -43,9 +43,13 @@ vườn lẽ ra phải thu thập xong từ trước rồi.**
 | Cà phê hòa tan | **5 µg/kg** |
 | **Nhân xanh** | **Không có mức hài hòa** |
 
-> ⚠️ Các nguồn thứ cấp **mâu thuẫn nhau** về con số cụ thể (có nguồn ghi 5/10 µg/kg). Nếu cần
-> trích dẫn chính thức đưa vào hợp đồng, **tra bản hợp nhất Regulation (EU) 2023/915 trên EUR-Lex,
-> mục 1.2** — đừng dùng số từ blog.
+> ✅ **Cập nhật 18/09/2026: hai con số 3 µg/kg (rang) và 5 µg/kg (hòa tan) đã được đối chiếu chéo
+> nhiều nguồn và nhất quán.** Chúng do **Regulation (EU) 2022/1370** đưa vào, áp dụng từ
+> 01/01/2023, sau đó 2023/915 hợp nhất. Các nguồn ghi "5/10 µg/kg" là **trích mức cũ của
+> Reg (EC) 1881/2006 trước sửa đổi 2022**. Vẫn nên tra bản hợp nhất trên EUR-Lex mục 1.2 trước khi
+> đưa vào hợp đồng.
+>
+> Chi tiết và hệ quả khi bán cà phê **rang**: [`13-ca-phe-rang-xuat-khau-the-gioi.md`](13-ca-phe-rang-xuat-khau-the-gioi.md#21-an-toàn-thực-phẩm)
 
 **Đừng hiểu nhầm là nhân xanh được miễn.** Rang chỉ phân hủy khoảng **30–90% OTA** tùy điều kiện,
 phần còn lại đi thẳng vào thành phẩm. Nhà rang xay Đức phải đạt ngưỡng ở đầu ra, nên **họ đưa giới
@@ -55,7 +59,12 @@ hạn OTA vào hợp đồng mua nhân xanh** và test trước khi nhận hàng
 > Thực tế roaster Đức thường yêu cầu **≤ 5 µg/kg** cho nhân xanh, có nơi chặt hơn.
 > **Bắt buộc có kết quả test OTA từ lab được công nhận đi kèm lô hàng.**
 
-**Aflatoxin:** tổng aflatoxin trong cà phê rang giới hạn **4 µg/kg**.
+**Aflatoxin:** ✅ **Đã xác minh trên bản hợp nhất EUR-Lex ngày 21/09/2026 — EU không đặt mức tối đa
+aflatoxin nào cho cà phê**, ở bất kỳ dạng nào. Mục aflatoxin của Reg (EU) 2023/915 (1.1.1–1.1.19)
+chỉ gồm quả khô, lạc/hạt có dầu, hạt cây, ngũ cốc, gia vị khô, sản phẩm sữa và thực phẩm trẻ em;
+cà phê chỉ xuất hiện ở mục OTA (1.2.14–1.2.15). Con số **4 µg/kg** từng ghi ở đây là mức của nhóm
+**hạt và quả khô**, đã bị trích sai sang cà phê — **không dùng**. (Đã sửa cả ở `docs/12` và
+`tieu-chuan/TCXK-NX-01` §5.7.1.)
 
 **Lấy mẫu & phân tích mycotoxin:** Regulation (EU) 2023/2782, áp dụng từ 1/4/2024, giai đoạn
 chuyển tiếp đến 1/1/2029. (Anh Quốc/GB **không** áp dụng 2023/915 — vẫn theo Regulation 1881/2006
@@ -147,7 +156,7 @@ rượu. **Viên nén và pad tính như cà phê rang.** Không có ngưỡng m
 > **Kết luận thực dụng: bán nhân xanh chất lượng cao vào Đức có lợi thế thuế rõ rệt so với bán
 > thành phẩm. Muốn tăng giá trị thì tăng ở chất lượng và tuân thủ, không phải ở khâu rang.**
 
-## 2.2 🇩🇪 MOAH — điểm Đức đi trước EU
+## 2.2 MOAH — giới hạn hành động toàn EU (không phải quy định riêng của Đức)
 
 **MOAH = Mineral Oil Aromatic Hydrocarbons** (hydrocarbon thơm gốc dầu khoáng). Đi đôi với
 **MOSH** (Mineral Oil Saturated Hydrocarbons), thường viết chung **MOSH/MOAH**.
@@ -156,11 +165,35 @@ rượu. **Viên nén và pad tính như cà phê rang.** Không có ngưỡng m
 EU coi đây là chất **"không có ngưỡng an toàn"** — mục tiêu là **không phát hiện được**, không phải
 "dưới ngưỡng".
 
-**Đức đã áp ngưỡng MOAH trước khi EU ban hành chính thức:**
-- **0,50 mg/kg** với sản phẩm ≤ 4% chất béo
-- **1,0 mg/kg** với sản phẩm > 4–50% chất béo
+> 🔴 **Đính chính 21/09/2026.** Phiên bản trước của mục này ghi ngưỡng MOAH là "quy định riêng của
+> Đức, đi trước EU". **Sai.** Đây là **giới hạn hành động thống nhất toàn EU**, không phải luật Đức.
 
-Đức đồng thời **hạn chế dùng giấy tái chế làm vật liệu tiếp xúc thực phẩm**.
+**Văn bản đang áp: *Joint Statement* của Ủy ban châu Âu và các nước thành viên** (SCoPAFF họp
+21/04/2022, công bố 17/05/2022, hiệu chỉnh bậc chất béo tháng 10/2022). Ba bậc theo hàm lượng
+chất béo, đo trên sản phẩm **"as sold"**, **bất kể nguồn nhiễm từ đâu**:
+
+| Hàm lượng chất béo/dầu | Ngưỡng tổng MOAH (C10–C50) |
+|---|---|
+| **≤ 4%** — **cà phê nhân xanh nằm ở bậc này** | **0,50 mg/kg** |
+| > 4% và ≤ 50% | 1,0 mg/kg |
+| Dầu mỡ, hoặc > 50% béo | 2,0 mg/kg |
+
+**Cơ chế cưỡng chế:** Joint Statement **không phải luật ràng buộc**. Nó được thực thi qua
+**Điều 14 Regulation (EC) 178/2002** — hàng ≥ ngưỡng bị coi là thực phẩm không an toàn →
+**thu hồi và triệu hồi khỏi thị trường**; nghĩa vụ tự thu hồi của doanh nghiệp theo Điều 19.
+Trên thực tế đây là chuẩn chung của mọi cơ quan kiểm soát thực phẩm EU. Hậu quả với bạn **giống
+hệt** như một mức tối đa pháp lý.
+
+**Mức tối đa ràng buộc sắp tới — và vì sao nó không cứu bạn:** SCoPAFF đồng thuận ngày
+**13/05/2026** bổ sung **Mục 5.5 vào Annex I Reg (EU) 2023/915**, dự kiến áp dụng từ **01/01/2027**.
+⚠️ **Cà phê bị loại khỏi danh mục đó** — cà phê (cùng trà, rau quả chế biến, hương liệu) chuyển
+sang **khuyến nghị giám sát MOSH/MOAH 2026–2029**. Nghĩa là **với cà phê, Joint Statement 2022 vẫn
+là văn bản áp dụng kể cả sau 01/01/2027**. Đừng chờ một "mức chính thức cho cà phê" — giai đoạn này
+sẽ không có.
+
+**Phần thật sự thuộc về Đức:** BfR là cơ quan đẩy mạnh nhất việc siết MOAH, và Đức **hạn chế dùng
+giấy/bìa tái chế làm vật liệu tiếp xúc thực phẩm**. Đó là khác biệt thực tế của thị trường Đức —
+không phải một ngưỡng số riêng.
 
 ### Nguồn nhiễm MOAH trong chuỗi cà phê
 

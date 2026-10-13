@@ -115,10 +115,10 @@ hạt nâu ≈ 0,25 · hạt vỡ ≈ 0,2 · cục đá lớn = 5,0.
 | TCVN 1279:1993 | — | Bao gói, ghi nhãn, bảo quản, vận chuyển |
 | TCVN 4334:2007 | ISO 3509:2005 | Thuật ngữ và định nghĩa |
 | TCVN 4807:2013 | ISO 4150:2011 | Phân tích cỡ hạt bằng sàng máy và sàng tay |
-| TCVN 4808:2007 | ISO 4149:2005 | Kiểm tra ngoại quan, tạp chất lạ, khuyết tật |
-| TCVN 5702:1993 | — | Lấy mẫu |
-| TCVN 6602:2013 | ISO 8455:2011 | Bảo quản và vận chuyển |
-| TCVN 6928:2007 | ISO 6673:2003 | Độ ẩm — hao hụt khối lượng ở 105 °C |
+| TCVN 4808:2007 | ISO 4149:**2005** ⛔ đã thu hồi → nay là **ISO 4149:2025** | Kiểm tra ngoại quan, tạp chất lạ, khuyết tật |
+| TCVN 5702:1993 | (≈ ISO 4072:1982) | Lấy mẫu |
+| TCVN 6602:2013 | ISO 8455:2011 + Amd 1:2015 | Bảo quản và vận chuyển |
+| TCVN 6928:2007 | ISO 6673:**2003** ⛔ đã thu hồi → nay là **ISO 6673:2025** | Độ ẩm — hao hụt khối lượng ở 105 °C |
 | TCVN 7032:2007 | ISO 10470:2004 | Bảng tham chiếu khuyết tật |
 | **TCVN 9703:2013** | CAC/RCP 69-2009 | **Quy phạm thực hành ngăn ngừa và giảm thiểu nhiễm Ochratoxin A trong cà phê** |
 
@@ -139,21 +139,33 @@ max 12,5%*. TCVN 4193 là chuẩn tham chiếu nhà nước và cơ sở cho ki�
 
 ### 2.1 Bộ tiêu chuẩn ISO cho nhân xanh
 
-| Tiêu chuẩn | Đánh giá cái gì |
-|---|---|
-| **ISO 3509** | Từ vựng — định nghĩa chuẩn từng loại lỗi |
-| **ISO 4072** | **Lấy mẫu** từ lô hàng đóng bao |
-| **ISO 4149** | **Kiểm tra thị giác và khứu giác** — nhận diện lỗi, tạp chất |
-| **ISO 10470** | **Bảng lỗi chuẩn (Defect Reference Chart)** — đây chính là "cách chấm" của ISO |
-| **ISO 4150** | **Phân tích cỡ hạt** bằng sàng tay |
-| **ISO 6673** | **Độ ẩm** — sấy 105 °C / 16 h |
-| **ISO 1446** | Độ ẩm bằng Karl Fischer (phương pháp trọng tài) |
-| **ISO 6668** | **Rang mẫu** để chuẩn bị phân tích cảm quan |
-| **ISO 8455** | Hướng dẫn **bảo quản và vận chuyển** |
-| **ISO 9116** | Hướng dẫn **mô tả lô hàng trong hợp đồng** |
+✅ **Đối chiếu catalogue ISO/TC 34/SC 15 ngày 21/09/2026** — cột năm là ấn bản **đang hiệu lực**:
 
-> Ấn bản (edition) từng tiêu chuẩn thay đổi theo thời gian — khi đưa vào hợp đồng nên tra
-> catalogue ISO hiện hành để ghi đúng năm.
+| Tiêu chuẩn — ấn bản hiện hành | Đánh giá cái gì |
+|---|---|
+| **ISO 3509:2005** | Từ vựng — định nghĩa chuẩn từng loại lỗi |
+| **ISO 4072:1982** | **Lấy mẫu** từ lô hàng đóng bao |
+| 🔴 **ISO 4149:2025** | **Kiểm tra thị giác và khứu giác** — nhận diện lỗi, tạp chất |
+| **ISO 10470:2004** | **Bảng lỗi chuẩn (Defect Reference Chart)** — đây chính là "cách chấm" của ISO |
+| **ISO 4150:2011** | **Phân tích cỡ hạt** bằng sàng tay **và sàng máy** |
+| 🔴 **ISO 6673:2025** | **Độ ẩm** — hao hụt khối lượng ở 105 °C |
+| **ISO 1446:2001 + Amd 1:2011** | Độ ẩm bằng Karl Fischer (phương pháp trọng tài) |
+| **ISO 24115:2012** | **Hiệu chuẩn máy đo độ ẩm** cho nhân xanh |
+| **ISO 6667:1985** | Tỷ lệ **hạt bị côn trùng gây hại** |
+| **ISO 6669:1995** | Khối lượng riêng xốp (*bulk density*) |
+| **ISO 6668:2008** | **Rang mẫu** để chuẩn bị phân tích cảm quan |
+| **ISO 18794:2025** | Từ vựng phân tích cảm quan cà phê |
+| **ISO 8455:2011 + Amd 1:2015** | Hướng dẫn **bảo quản và vận chuyển** |
+| 🔴 **ISO 9116:2025** | Hướng dẫn **mô tả lô hàng trong hợp đồng** |
+| **ISO 20481:2008** | Hàm lượng caffeine bằng HPLC |
+
+> 🔴 **Ba ấn bản bị thu hồi mà tài liệu ngành vẫn chép:** ISO 4149:**2005**, ISO 6673:**2003**,
+> ISO 9116:**2004** — đều đã thay bằng ấn bản **2025**. Nếu spec sheet của bạn đang ghi các năm
+> này, sửa ngay: viện dẫn một tiêu chuẩn đã thu hồi làm yếu vị thế của bạn trong trọng tài.
+>
+> ⚠️ **Nhưng đừng sửa nửa vời.** TCVN 4808:2007 và TCVN 6928:2007 **vẫn hiệu lực** và vẫn chiếu
+> theo ấn bản ISO **cũ**. Hợp đồng ghi đồng thời "TCVN 4808:2007" và "ISO 4149:2025" là ghi **hai
+> phương pháp khác nhau**. Chọn một hệ.
 
 ### 2.2 ISO 10470 — cái gần nhất với "chấm điểm"
 
@@ -301,16 +313,35 @@ lẻ**, mà chấm theo **tỷ lệ tương quan**:
 > Lý do: **đắng ở Robusta là đặc tính, không phải lỗi.** Arabica chấm acidity (mong muốn chua
 > sáng); Robusta chấm cân bằng mặn/chua và đắng/ngọt.
 
-Tổng thang **100 điểm**. Phân cấp thông dụng:
+Tổng thang **100 điểm**.
 
-| Mức | Điểm |
-|---|---|
-| **Fine Robusta** | **≥ 80** |
-| Premium Robusta | 70 – 79,9 |
-| Commercial / Usual Good Quality (UGQ) | < 70 |
+### 4.1 🔴 Phân cấp CQI — đính chính một hiểu lầm rất phổ biến
 
-> ⚠️ Bảng phân cấp này **chưa xác minh trực tiếp từ tài liệu CQI**. Nếu dùng cho hồ sơ chính
-> thức, đối chiếu bản *Fine Robusta Standards and Protocols* của CQI.
+Bảng "Fine ≥80 · Premium 70–79,9 · Commercial <70" **lưu hành khắp nơi trong ngành Việt Nam là
+SAI**. Trong *Q Robusta — Fine Robusta Standards and Protocols* (CQI/UCDA, © 2019), **Fine và
+Premium đòi hỏi điểm cup như nhau (≥ 80)**. Cái phân biệt hai hạng là **lỗi vật lý và quaker**,
+không phải điểm:
+
+| Hạng | Lỗi Category 1 (primary) | Lỗi Category 2 / tổng, mẫu **350 g** | Quaker / 100 g rang | Điểm cup |
+|---|---|---|---|---|
+| **Fine Robusta** | **0** | **≤ 5** secondary | **≤ 3** | **≥ 80** |
+| **Premium Robusta** | — | **≤ 12** primary + secondary **cộng lại** | **≤ 5** | **≥ 80** |
+| **Commercial / UGQ** | không đạt hai hạng trên | | | |
+
+**Quy ước đếm kèm theo, áp cho mọi mẫu:**
+- Mẫu nhân **350 g ± 0,2 g**; mẫu rang đếm quaker **100 g ± 0,2 g**.
+- Độ ẩm **10–12%** (hàng chế biến ướt).
+- Cỡ sàng lệch không quá **5%** so với hợp đồng — và **screen không phải tiêu chí chất lượng**
+  trong hệ CQI.
+- Fine và Premium **không được có mùi lạ / mùi phi cà phê**.
+- Một hạt mang nhiều lỗi thì **chỉ tính lỗi nặng nhất**; tổng luôn **làm tròn xuống**.
+
+> 🔑 **Hệ quả thương mại:** một lô cup 82 điểm nhưng 9 lỗi/350 g **không phải Fine Robusta** — nó
+> là Premium. Ngược lại, một lô cup 79 điểm dù sạch lỗi tuyệt đối **cũng không phải Premium**.
+> Bán hàng ghi "Fine Robusta" chỉ dựa trên điểm cup là **mô tả sai hàng hóa**, rủi ro trong trọng tài.
+>
+> ⚠️ Vẫn nên mua bản gốc CQI trước khi đưa vào hợp đồng: bảng **quy đổi full defect** của Robusta
+> khác SCA Arabica và các nguồn thứ cấp chép sai bảng này nhiều nhất.
 
 **Thực tế Việt Nam:** cà phê Robusta đạt Fine Robusta hầu như chỉ đến từ các lô chế biến kỹ
 (honey, natural có kiểm soát, hái chín chọn lọc) ở Đắk Lắk, Lâm Đồng, Sơn La — không phải hàng

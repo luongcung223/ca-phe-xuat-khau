@@ -3,6 +3,20 @@
 Bộ dữ liệu gốc tải về từ nguồn công khai, giữ nguyên không chỉnh sửa. Mọi số liệu trích dẫn trong
 `docs/` nên dẫn ngược về đây.
 
+## VICOFA — Top 20 DN xuất khẩu cà phê nhân sống, niên vụ 2024/25 (23/09/2026)
+
+| File | Mô tả |
+|---|---|
+| `2026-09-23_VICOFA_top20-nhan-xanh_nien-vu-2024-25_tom-tat.md` | Bảng xếp hạng, gộp nhóm mẹ, chỉ số đơn giá, nguồn, cảnh báo chất lượng dữ liệu |
+| `2026-09-23_VICOFA_top20-nhan-xanh_nien-vu-2024-25.csv` | Dữ liệu thô, 20 dòng |
+
+- **Nguồn gốc:** báo cáo VICOFA tại Hội nghị tổng kết niên vụ 2024/25 (24/10/2025), lấy qua
+  thitruongcaphe.net (26/10/2025) và Báo Pháp Luật TP.HCM (30/10/2025)
+- **Phạm vi:** cà phê **nhân sống/nhân xanh**, đã tách khỏi rang xay & hòa tan
+- **Tiêu chí:** thị phần **khối lượng** (kim ngạch chỉ có cho 5 DN đầu)
+- ⚠️ Chỉ có **thị phần %**, không có số tấn/USD tuyệt đối từng DN
+- ⚠️ Niên vụ 2025/26 kết thúc 30/9/2026 — bảng mới dự kiến công bố cuối 10/2026
+
 ## USDA PSD — cà phê Việt Nam (10/09/2026)
 
 | File | Mô tả |

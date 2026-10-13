@@ -62,7 +62,11 @@ dầu khoáng.
 Hydrocarbon thơm đa vòng. Sinh ra khi **sấy bằng khói/dầu diesel** hoặc phơi cạnh đường giao thông.
 
 ### Aflatoxin
-Nhóm mycotoxin khác. EU giới hạn tổng aflatoxin trong cà phê rang **4 µg/kg**.
+Nhóm mycotoxin khác. **EU không đặt mức tối đa nào cho cà phê** — tra bản hợp nhất
+Reg (EU) 2023/915 ngày 21/09/2026: mục aflatoxin (1.1.1–1.1.19) chỉ liệt kê quả khô, lạc,
+hạt cây, ngũ cốc, gia vị khô, sản phẩm sữa và thực phẩm trẻ em; cà phê chỉ xuất hiện ở mục
+OTA (1.2.14–1.2.15). Con số **4 µg/kg** lưu hành trong ngành là mức cho **hạt và quả khô** —
+đừng trích sang cà phê.
 
 ### aw — Water activity (hoạt độ nước)
 Chỉ số dự báo mốc chính xác hơn % độ ẩm. **aw < 0,60 an toàn dài hạn · 0,70 nấm mốc mọc ·
